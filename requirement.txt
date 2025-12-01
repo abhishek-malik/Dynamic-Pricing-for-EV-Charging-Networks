@@ -1,0 +1,11 @@
+pandas
+requests
+numpy
+matplotlib
+seaborn
+math
+sklearn
+tqdm
+catboost
+statsmodels
+xgboost
