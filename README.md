@@ -93,8 +93,11 @@ MAE:  8.8075 kWh
 R^2:  0.3167 
 
 <img width="1277" height="543" alt="image" src="https://github.com/user-attachments/assets/09d378e7-7e6f-4c3c-ad50-4d797c68365e" />
+### 3\. Modeling: CatBoost (Extreme Gradient Boosting)
+<img width="1235" height="286" alt="image" src="https://github.com/user-attachments/assets/c98667fb-6986-4d7c-b429-3b9c43bb6b1c" />
+<img width="1162" height="351" alt="image" src="https://github.com/user-attachments/assets/2b745d07-f338-4fb2-9922-5852c1cd1a43" />
 
-
+<img width="1162" height="351" alt="image" src="https://github.com/user-attachments/assets/12bd0379-1ea0-4e5e-aa86-970249e06ef3" />
 -----
 
 ## 💲 Economic Application: Dynamic Pricing
