@@ -44,6 +44,26 @@ A critical anomaly was detected in the station mix:
   * **Correction:** Resampling methodology expands these rows into hourly buckets to accurately attribute load to 3:00 AM grid conditions.
 
 <img width="1022" height="555" alt="image" src="https://github.com/user-attachments/assets/31afe19b-af8e-4f38-b7e0-e2c895a9a346" />
+Univariate Analysis - Numeric
+<img width="1389" height="3590" alt="image" src="https://github.com/user-attachments/assets/24f49f65-bca1-42a3-987b-17757d4981c3" />
+Univariate - Analysis - Categorical
+<img width="993" height="1189" alt="image" src="https://github.com/user-attachments/assets/c57f240a-4628-450b-8a72-34971b274813" />
+Bivariate - Analysis
+<img width="880" height="916" alt="image" src="https://github.com/user-attachments/assets/21263c81-62b7-4811-be2a-6b2e4e79457a" />
+<img width="559" height="393" alt="image" src="https://github.com/user-attachments/assets/0674d6e8-f7db-4367-9226-41f4406e6a96" />
+<img width="577" height="393" alt="image" src="https://github.com/user-attachments/assets/aa38b5d4-8bfa-4e8c-80c0-c96f0bf66993" />
+ACF Plot
+<img width="1031" height="597" alt="image" src="https://github.com/user-attachments/assets/cd1d3fa1-0763-4fc8-bb9b-35d1d9765101" />
+PACF Plot
+<img width="936" height="391" alt="image" src="https://github.com/user-attachments/assets/f196a36e-c766-42e4-8f30-b96e77717cd7" />
+
+
+
+
+
+
+
+
 
 
 -----
