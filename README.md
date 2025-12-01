@@ -43,6 +43,9 @@ A critical anomaly was detected in the station mix:
   * **Session Spanning:** Sessions starting at 10:00 PM and ending at 7:00 AM span two calendar days. Naive aggregation assigns all load to the first day, creating artificial evening peaks.
   * **Correction:** Resampling methodology expands these rows into hourly buckets to accurately attribute load to 3:00 AM grid conditions.
 
+<img width="1022" height="555" alt="image" src="https://github.com/user-attachments/assets/31afe19b-af8e-4f38-b7e0-e2c895a9a346" />
+
+
 -----
 
 ## ⚙️ Methodology
@@ -63,6 +66,14 @@ We employ **XGBoost**, an ensemble technique that builds Decision Trees sequenti
 
   * **Why XGBoost?** It excels at handling exogenous regressors. The model splits data based on conditions (e.g., "Is it a weekday?" $\rightarrow$ "Is Temp $> 90^\circ F$?") to capture non-linear interactions like cooling load demand.
   * **Approach:** Each iteration predicts the residuals (errors) of the previous model ($y - F_m(x)$), incrementally reducing bias.
+
+FINAL EVALUATION METRICS
+RMSE: 12.1055 kWh
+MAE:  8.8075 kWh
+R^2:  0.3167
+
+<img width="1277" height="543" alt="image" src="https://github.com/user-attachments/assets/09d378e7-7e6f-4c3c-ad50-4d797c68365e" />
+
 
 -----
 
