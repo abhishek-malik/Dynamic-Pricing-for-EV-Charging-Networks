@@ -65,12 +65,12 @@ Machine learning models do not natively understand "time" or "seasonality." We p
 We employ **XGBoost**, an ensemble technique that builds Decision Trees sequentially.
 
   * **Why XGBoost?** It excels at handling exogenous regressors. The model splits data based on conditions (e.g., "Is it a weekday?" $\rightarrow$ "Is Temp $> 90^\circ F$?") to capture non-linear interactions like cooling load demand.
-  * **Approach:** Each iteration predicts the residuals (errors) of the previous model ($y - F_m(x)$), incrementally reducing bias.
+  * **Approach:** Each iteration predicts the residuals (errors) of the previous model, incrementally reducing bias.
 
 FINAL EVALUATION METRICS
-RMSE: 12.1055 kWh
-MAE:  8.8075 kWh
-R^2:  0.3167
+RMSE: 12.1055 kWh 
+MAE:  8.8075 kWh 
+R^2:  0.3167 
 
 <img width="1277" height="543" alt="image" src="https://github.com/user-attachments/assets/09d378e7-7e6f-4c3c-ad50-4d797c68365e" />
 
